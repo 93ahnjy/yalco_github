@@ -1,0 +1,8 @@
+1. git branch -d
+
+
+
+2. branch 병함
+ 1) merge : 기존 branch 들의 commit들을 그대로 냅두고 두 branch를 합쳐 새로운 하나의 branch로 생성
+ 2) rebase : 기존 branch를 아예 떼어버려서 대상 branch에 옮겨버리기
+    --> rebase하면 branch가 대상 branch로 옮겨가므로 히스토리가 다 남는 merge에 비해 깔끔해지지만, branch 흔적이 사라져버리니 조심!!!
